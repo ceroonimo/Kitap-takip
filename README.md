@@ -1,16 +1,26 @@
-# React + Vite
+📚 Kitap Takip Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, okuduğunuz veya okuyacağınız kitapları takip etmenize olanak tanıyan, modern web teknolojileriyle geliştirilmiş bir **CRUD** (Ekle, Listele, Güncelle, Sil) uygulamasıdır.
 
-Currently, two official plugins are available:
+✨ Özellikler
+- **Kitap Yönetimi:** Kitap adı, yazar, tür ve sayfa sayısı bilgilerini ekleyebilir, silebilir ve güncelleyebilirsiniz.
+- **Kalıcı Veri (LocalStorage):** Sayfayı kapatsanız bile kitaplarınız tarayıcı hafızasında saklanır.
+- **Modern Arayüz:** Tailwind CSS v4 kullanılarak şık ve kullanıcı dostu bir tasarım yapılmıştır.
+- **Hızlı Performans:** Vite ve React sayesinde anlık tepki veren hızlı bir yapıya sahiptir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Kullanılan Teknolojiler
+- **Framework:** React.js
+- **Derleyici:** Vite
+- **Tasarım:** Tailwind CSS v4
+- **Yayınlama:** Netlify
 
-## React Compiler
+🔗 Canlı Demo
+Uygulamayı canlı olarak buradan inceleyebilirsiniz:
+[https://flourishing-cascaron-510b6e.netlify.app/](https://flourishing-cascaron-510b6e.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Yerel Kurulum
+Projeyi kendi bilgisayarınızda çalıştırmak için:
+1. Depoyu indirin: `git clone https://github.com/ceroonimo/Kitap-takip.git`
+2. Klasöre girin: `cd kitap-takip`
+3. Paketleri yükleyin: `npm install`
+4. Çalıştırın: `npm run dev`
